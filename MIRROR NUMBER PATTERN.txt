@@ -1,0 +1,14 @@
+inte=int(input())
+i=1
+while(i<=inte):
+    num=1
+    j=1
+    while(j<=inte):
+        if(j>=inte-i+1):
+            print(num,end='')
+            num+=1
+        else:
+            print(' ',end='')
+        j+=1
+    print()
+    i+=1
