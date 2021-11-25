@@ -1,0 +1,28 @@
+def code11(n):
+    i=1
+    while i<=n:
+        space=1
+        while space<=n-i:
+            print(" ",end='')
+            space=space+1
+            
+        dec_no=i-1
+        while dec_no>=1:
+            print(dec_no+1,end='')
+            dec_no=dec_no-1
+            
+        j=n
+        while j==n:
+            print("1",end='')
+            j=j+1
+        if i!=1:
+            p=2
+            while p<=i:
+                print(p,end='')
+                p=p+1
+                
+        print() 
+        i=i+1
+        
+n=int(input())        
+code11(n)
