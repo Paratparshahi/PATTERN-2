@@ -1,0 +1,27 @@
+into=int(input())
+i=1
+first=(into+1)/2
+second=(first-1)
+while(i<=first):
+    space=i-1
+    while(space>0):
+        print(' ',end='')
+        space-=1
+    star=1
+    while(star<=i):
+        print('* ',end='')
+        star+=1
+    print()
+    i+=1
+i=second
+while(i>=1):
+    spa=i-1
+    while(spa>0):
+        print(' ',end='')
+        spa-=1
+    star1=1
+    while(star1<=i):
+        print('* ',end='') 
+        star1+=1
+    print()
+    i-=1
